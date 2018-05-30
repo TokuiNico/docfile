@@ -1,0 +1,14 @@
+[user]
+	mail = vegetable80923@gmail.com
+	name = chih_yu
+	email = vegetable80923@gmail.com
+[commit]
+	template = /home/chihyu_lin/.gitmessage.txt
+[core]
+    editor = /usr/bin/nvim
+[color]
+    diff = auto
+[diff]
+    tool = vimdiff
+[mergetool "vimdiff"]
+    cmd = nv -d $BASE $LOCAL $REMOTE $MERGED -c '$wincmd w' -c 'wincmd J'
